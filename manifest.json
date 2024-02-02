@@ -1,0 +1,12 @@
+{
+    "display_name": "Silence Player",
+    "loading_order": 5,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "",
+    "author": "Cohee1207",
+    "version": "1.0.0",
+    "homePage": "https://github.com/Cohee1207/Extension-Silence",
+    "auto_update": true
+}
