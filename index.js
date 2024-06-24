@@ -1,5 +1,6 @@
 jQuery(() => {
-    $('#extensions_settings').append(`
+    const getContainer = () => $(document.getElementById('silence_container') ?? document.getElementById('extensions_settings'));
+    getContainer().append(`
     <div class="inline-drawer">
         <div class="inline-drawer-toggle inline-drawer-header">
             <b>Silence Player</b>
